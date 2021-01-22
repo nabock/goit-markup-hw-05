@@ -465,12 +465,15 @@ address {
 }
 
 .clients {
+	display: inline;
 	margin-left: 30px;
 	width: calc(100% / 6 - 30px);
 }
+/* поработать */
 
 .clients :hover {
 	border: 1px solid var(--accent-color);
+	fill: var(--accent-color);
 }
 
 .clients-link {
