@@ -469,11 +469,13 @@ address {
 	margin-left: 30px;
 	width: calc(100% / 6 - 30px);
 }
-/* поработать */
 
-.clients :hover {
-	border: 1px solid var(--accent-color);
+.clients:hover svg {
 	fill: var(--accent-color);
+}
+
+.clients:hover .clients-link {
+	border: 1px solid var(--accent-color);
 }
 
 .clients-link {
@@ -713,8 +715,7 @@ footer {
 	transform: translateY(0);
 }
 
-.list-title-projects :hover,
-.list-title-projects :focus {
+.list-title-projects:hover .card-projects {
 	box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06), 1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 
