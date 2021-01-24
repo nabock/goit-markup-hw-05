@@ -683,7 +683,6 @@ footer {
 	margin-top: 50px;
 	margin-right: -30px;
 	margin-bottom: -30px;
-	list-style: none;
 }
 
 .list-title-projects {
@@ -693,7 +692,6 @@ footer {
 	/*  Задаём ширину элементов  */
 	flex-basis: calc(100% / 3 - 30px);
 	background-color: #fff;
-	box-shadow: none;
 }
 
 .projects-overlay {
@@ -735,7 +733,6 @@ footer {
 	border-right: 1px solid rgba(238, 238, 238, 0.8);
 	border-bottom: 1px solid rgba(238, 238, 238, 0.8);
 	border-left: 1px solid rgba(238, 238, 238, 0.8);
-	box-shadow: none;
 }
 
 .projects-title {
@@ -745,8 +742,6 @@ footer {
 	font-size: 18px;
 	line-height: 2;
 	letter-spacing: 0.06em;
-
-	box-shadow: none;
 }
 
 .type-projects {
