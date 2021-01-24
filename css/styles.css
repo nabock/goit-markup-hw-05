@@ -132,7 +132,8 @@ address {
 	margin-right: 10px;
 }
 
-.contacts-link:hover svg {
+.contacts-link:hover svg,
+.contacts-link:focus svg {
 	fill: var(--accent-color);
 }
 
@@ -412,7 +413,9 @@ address {
 
 .member-team {
 	padding: 30px 32px;
+	background-color: var(--primerry-bg-color);
 }
+
 .member-list {
 	margin-right: -10px;
 	display: flex;
@@ -437,11 +440,13 @@ address {
 	border-radius: 50%;
 }
 
-.member-list :hover {
+.member-list :hover,
+.member-list :focus {
 	background-color: var(--accent-color);
 }
 
-.member-list :hover svg {
+.member-list :hover svg,
+.member-list :focus svg {
 	fill: var(--primerry-bg-color);
 }
 
@@ -470,11 +475,13 @@ address {
 	width: calc(100% / 6 - 30px);
 }
 
-.clients:hover svg {
+.clients :hover svg,
+.clients :focus svg {
 	fill: var(--accent-color);
 }
 
-.clients:hover .clients-link {
+.clients:hover .clients-link,
+.clients:focus .clients-link {
 	border: 1px solid var(--accent-color);
 }
 
@@ -607,10 +614,12 @@ footer {
 	align-items: center;
 	justify-content: center;
 	border-radius: 50%;
-	background: rgba(0, 0, 0, 0.25);
+	background: rgba(255, 255, 255, 0.1);
+	box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-.link-network:hover {
+.link-network:hover,
+.link-network:focus {
 	background-color: var(--accent-color);
 }
 
@@ -711,7 +720,8 @@ footer {
 	transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-title-filters :hover .overlay-text {
+.list-title-filters :hover .overlay-text,
+.list-title-filters :focus .overlay-text {
 	transform: translateY(0);
 }
 
